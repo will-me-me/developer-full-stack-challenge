@@ -60,4 +60,20 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
+
+    router: {
+        // middleware: ['auth'],
+        // extendRoutes(routes, resolve) {
+        //     routes.push({
+        //         name: 'books',
+        //         path: '/books',
+        //         component: resolve(__dirname, 'pages/books.vue'),
+        //     });
+        //     routes.push({
+        //         name: 'authors',
+        //         path: '/authors',
+        //         component: resolve(__dirname, 'pages/authors.vue'),
+        //     });
+        // },
+    },
 };
